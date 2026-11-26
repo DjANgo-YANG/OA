@@ -1,0 +1,70 @@
+# R session and IDE files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local configuration
+.env
+config/paths.R
+
+# renv local library/cache
+renv/library/
+renv/staging/
+renv/python/
+
+# Raw and derived data
+/data/
+results/
+output/
+outputs/
+figures/
+tables/
+objects/
+
+# Large scientific formats
+*.rds
+*.RDS
+*.rda
+*.RData
+*.loom
+*.h5
+*.h5ad
+*.hdf5
+*.mtx
+*.bam
+*.bai
+*.sam
+*.cram
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# Generated media and office documents
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+*.ai
+*.psd
+*.doc
+*.docx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local path mappings and source provenance
+config/*.local.*
